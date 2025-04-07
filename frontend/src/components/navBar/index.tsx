@@ -17,7 +17,7 @@ export function NavBar(){
     "https://cdn-icons-png.flaticon.com/512/7915/7915522.png"
     : "https://cdn-icons-png.flaticon.com/512/17780/17780123.png "
 
-//https://img.vsco.co/cdn-cgi/image/width=480,height=640/e30640/193236451/679599b1f9af8a0e18c88ad1/vsco_012525.jpg
+
 
 
 

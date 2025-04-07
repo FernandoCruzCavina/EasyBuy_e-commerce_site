@@ -3,6 +3,7 @@ import { FormEvent } from "react";
 import { api } from "../../lib/axios";
 import {  useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/authenticated";
+import { Input } from "@/components/ui/input";
 
 interface LogInProps{
     closeLogin: () => void
@@ -47,14 +48,8 @@ export function LogIn({closeLogin}: LogInProps){
                         <h2 className="">Easybuy</h2>
                     </div>
             <div className="flex flex-col gap-y-2">
-                <div className="flex bg-[--placeholder] rounded-lg px-4 py-1 space-x-2 hover:outline outline-teal-300">
-                    <Mail/>
-                    <input type="email" name="emailUser" placeholder="email" className="flex flex-1 bg-transparent placeholder:text-slate-900 outline-none"/>
-                </div>
-                <div className="flex bg-[--placeholder] rounded-lg px-4 py-1 space-x-2 hover:outline outline-teal-300">
-                    <Lock/>
-                    <input type="password" name="passwordUser" placeholder="password" className="flex flex-1 bg-transparent placeholder:text-slate-900 outline-none" />
-                </div>
+                <Input type="email" name="emailUser" placeholder="email"><Mail /></Input>
+                <Input type="password" name="passwordUser" placeholder="password"><Lock /></Input>
             </div>
             <div className="flex justify-between">
                 <button type="button" className="text-[--text-bold] hover:underline ">forgot password ?</button>

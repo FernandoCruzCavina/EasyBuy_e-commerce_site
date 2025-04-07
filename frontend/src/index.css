@@ -10,16 +10,22 @@
   --text: white;
   --text-bold: #5eead4; /* teal-300 */
   --placeholder: rgb(34 211 238 / 0.8);  /* button/0.8 */
+  --background-menu: #3730a3; /* indigo-800 */
+  --input-menu: #8b5cf6;/* violet-500 */
+  --outline-menu: #c084fc; /* purple-400 */
 }
 
 [data-theme="light"]>* {
-  --background: #67e8f9; /* cyan-300 */
+  --background: #f2f2fa; /* near of cyan-100 */
   --components: #22d3ee; /* cyan-400 */
   --button: #0ea5e9; /* sky-500 */
   --nav: #22d3ee; /* cyan-400 */
   --text: black;
-  --text-bold: #f4f4f5; /* zinc-100 */ 
-  --placeholder: rgb(14 165 233 / 0.8); 
+  --text-bold: #2e1065  ; /* violet-950 */ 
+  --placeholder: rgb(14 165 233 / 0.8);
+  --background-menu: #4f46e5 ; /* indigo-600 */
+  --input-menu: #a78bfa;/* violet-400 */
+  --outline-menu: #f0abfc; /* fuchsia-300 */
 }
 
 body {
